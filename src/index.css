@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #101010;
+  color: white;
+  display: flex;
+}
+
+header #headCont {
+  display: flex;
+  margin-left: 12%;
+  margin-right: 15%;
+  padding: 1%;
+}
+
+header #headCont img {
+  width: 200px;
+  height: 200px;
+}
+
+#headCont ul {
+  display: flex;
+  gap: 50px;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+#headCont ul li {
+  list-style: none;
+}
+
+#headCont ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+#headCont #icon {
+  display: flex;
+  gap: 20%;
+  margin-top: 8%;
+  margin-left: 360px;
+  gap: 50%;
+  font-size: 25px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.aboutContent {
+  padding: 61px;
+  background: #101010;
+  color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutContent #lftHero {
+  margin-left: 10%;
+  /* padding: 70px; */
+}
+
+.aboutContent #rgtHero {
+  margin-right: 6%;
+  /* width: 50%; */
+  /* height: auto; */
+}
+
+.aboutContent #rgtHero img {
+  width: 100%;
+  /* height: %; */
+}
+
+.aboutContent h1 {
+  font-size: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  /* line-height: 99%; */
+}
+
+.aboutContent p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 60%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutContent button {
+  border: none;
+  padding: 2.5% 3.5%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#features {
+  display: flex;
+  padding: 50px;
+  margin-right: 10%;
+}
+
+/* #features #img {
+  width: 50%;
+  margin-left: 1%;
+  background-color: #000000;
+} */
+
+#features img {
+  width: 60%;
+  /* background-color: #000000; */
+}
+
+#features #featuresCont {
+  /* display: block; */
+  background-color: #000000;
+  padding: 4%;
+  height: fit-content;
+  background-color: #ffffff;
+  /* width: 33%; */
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  margin-right: 2%;
+}
+
+#features #featuresCont .cardCont {
+  display: flex;
+  gap: 5%;
+  color: #000000;
+  font-size: 22px;
+}
+
+#features #featuresCont .cardCont i {
+  margin-top: 5.5%;
+  font-size: 35px;
+}
+
+.featuretxt {
+  display: block;
+  color: #000000;
+  width: 30%;
+  padding: 2%;
+  margin-left: 15%;
+  font-size: 20px;
+}
+
+.featuretxt h1 {
+  font-size: 50px;
+  letter-spacing: -1px;
+}
+
+.featuretxt button {
+  background: #101010;
+  padding: 4%;
+  color: #ffffff;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+}
+
+.card {
+  transition: 0.3s ease;
+}
+
+.activities {
+  padding: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.activitiesCont {
+  margin-left: 12%;
+}
+
+.activities .actTxt {
+  margin-bottom: 20px;
+  margin-right: 20%;
+  justify-items: center;
+}
+
+.activities .actTxt h2 {
+  font-size: 45px;
+}
+
+.activities .actTxt p {
+  font-size: 20px;
+}
+
+.activities .actCard {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.activities .card {
+  padding: 16px;
+  border: none;
+}
+
+.products {
+  background-color: #dddddd;
+  height: fit-content;
+  padding: 2%;
+}
+
+/* .products header {
+  background-color: #fff;
+  color: #000000;
+}
+
+.products header ul li a {
+  color: #000000;
+} */
+
+.products .productCont {
+  margin-left: 11%;
+}
+
+.products .contents {
+  display: flex;
+  padding: 5%;
+}
+
+.products .contents .txtCont {
+  display: block;
+  color: #000000;
+  width: 30%;
+  font-size: 20px;
+}
+
+.products .img {
+  width: 50%;
+}
+
+.products .img img {
+  width: 50%;
+}
+
+.products .contents h1 {
+  font-size: 80px;
+}
+
+.products .productItems {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: 100px;
+}
+
+.products .card {
+  border-radius: 20px;
+  /* width: 30%; */
+  /* padding: 5% 5%; */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  width: 10cm;
+  height: 11cm;
+  position: relative;
+}
+
+/* .products .card .card-body {
+  justify-items: center;
+  display: inline-flex;
+  gap: 20px;
+  padding: 15px;
+} */
+
+.products .card .card-body h5 {
+  font-size: 25px;
+}
+
+.products .card img {
+  position: relative;
+  width: 20rem;
+  top: 0px;
+  left: 10px;
+  bottom: 100px;
+}
+
+.products .card-body .cardTxt {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+#footer {
+  background-image: url(assets\buildings.png);
+  background-size: cover;
+  padding: 3%;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+}
